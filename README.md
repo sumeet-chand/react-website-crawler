@@ -25,11 +25,8 @@ pip install requests beautifulsoup4
 
 ## Usage
 
-To use this script, run the following command in your CLI, replacing `https://sumeet-singh.com` with the webpage you want to target. Note that the `http://` or `https://` prefix is required.
+To use this script, run the following command in your CLI, replacing `https://test.com` with the webpage you want to target. Note that the `http://` or `https://` prefix is required.
 
 ```bash
-python crawler.py https://sumeet-singh.com
+python crawler.py https://test.com
 ```
-
-![Screenshot](screenshot.png)  
-<i>Figure 1. An screenshot of an example script execution.</i>
