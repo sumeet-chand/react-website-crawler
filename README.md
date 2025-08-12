@@ -30,3 +30,5 @@ To use this script, run the following command in your CLI, replacing `https://te
 ```bash
 python crawler.py https://test.com
 ```
+
+![Example Screenshot](./example_screenshot_1.png "Example Screenshot")
