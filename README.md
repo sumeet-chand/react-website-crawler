@@ -1,6 +1,15 @@
 # React Website Sitemapper
 
-This Python script crawls a JavaScript-based React website to find all possible internal routes, including those that may be hidden or commented out in the source code.
+Generic Javascript is simple to scrap, although with the React framework as JS is rendered on the client side it creates a problem
+for traditional web scrappers. This Python script crawls a JavaScript-based React website to find all possible internal routes, including those that may be hidden or commented out in the source code.
+
+## Considerations
+The following are future considerations to edit this code to become more reliable as websites
+can be coded to prevent web scrapping with many techniques.
+- Data limiting requests - Find a method to by pass data limiting of requests.
+- IP Bans - Find a method to bypass IP bans if you are banned from a website for too many requests.
+- Captcha - Find a way to evade captcha e.g. from Cloudflare, possibly with the use of AI.
+- Honeypot route IP Ban for rotating IP's - Find a way to understand legitimate web links (routes) to prevent scrapping an honey-pot weblink.
 
 ## Features
 
